@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>Testing Javascript skills</title>
+    <link rel="stylesheet" type="text/css" href="csswork.css" >
+</head>
+<body>
+<section id="area">
+    <h1 class="head">TRAFFIC COUNTER</h1>
+    <h2>Number of vehicles on the street</h2>
+    <div id="count">0</div>
+
+    <div id="incr">
+    <div class="click">click </div>
+        <button class="incr" onclick="increament()">INCREAMENT</button>
+    </div>
+    <div id="save">
+        <button  class="save" onclick="saveincr()">SAVE</button>
+    </div>
+    <span>Total counted vehicles are:</span>
+    <div id="show"></div>
+
+    <script src="Javawork.js"></script>
+
+
+</section>
+</body>
+</html>
